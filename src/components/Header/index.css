@@ -1,0 +1,72 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wave-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #12022f;
+}
+@media screen and (min-width: 768px) {
+  .wave-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+  }
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  padding-right: 15px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 22px;
+    margin-right: 35px;
+  }
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 15px;
+  color: #12022f;
+  font-family: 'Roboto';
+  cursor: pointer;
+}

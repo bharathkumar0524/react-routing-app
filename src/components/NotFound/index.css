@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.not-found-img {
+  width: 200px;
+}
+.not-found-heading {
+  font-size: 24px;
+  color: #551e53;
+}
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 400px;
+  }
+  .not-found-heading {
+    font-size: 32px;
+  }
+}
